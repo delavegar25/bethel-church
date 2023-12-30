@@ -1,0 +1,287 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fff;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: fit-content;
+    min-height: 100%;
+}
+
+header {
+    background: #333;
+
+    margin-top: -1.3rem;
+}
+
+.nav-bar {
+    background: #000;
+    border-radius: 6px;
+    outline: 2px solid #b5b5b5;
+    width: 100%;
+    height: 80px;
+}
+
+.nav-bar h4 {
+    color: #fff;
+    font-size: 1.45rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1.1rem;
+    padding: 1.1rem;
+}
+
+.dropdown-toggle {
+  background-position: 83%;
+  background-repeat: no-repeat;   
+  background-size: auto;
+  padding-left: 8%;
+  padding: 26px 20px 20px;
+}
+
+.w-dropdown-toggle {
+    cursor: pointer;
+}
+
+
+.nav-link {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -4.5rem;
+    margin-left: 7.4rem;
+    font-size: 700;
+}
+
+.nav-link:focus {
+   background: #000;
+}
+
+.nav-dropdown-arrow {
+    margin-left: 10px;
+}
+
+.nav-link img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.nav-link1 {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -7.2rem;
+    margin-left: 13.9rem;
+    font-size: 700;
+}
+
+.nav-link1:focus {
+   background: #000;
+}
+
+.nav-dropdown-arrow1 {
+    margin-left: 10px;
+}
+
+.nav-link1 img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+.nav-link2 {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -9.99rem;
+    margin-left: 22.9rem;
+    font-size: 700;
+}
+
+.nav-link2:focus {
+   background: #000;
+}
+
+
+.nav-dropdown-arrow2 {
+    margin-left: 10px;
+}
+
+.nav-link2 img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.nav-link3 {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -12.79rem;
+    margin-left: 29.9rem;
+    font-size: 700;
+}
+
+.nav-link3:focus {
+   background: #000;
+}
+
+
+.nav-dropdown-arrow3 {
+    margin-left: 10px;
+}
+
+.nav-link3 img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+.nav-link4 {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -15.79rem;
+    margin-left: 36.9rem;
+    font-size: 700;
+}
+
+.nav-link4:focus {
+   background: #000;
+}
+
+.nav-dropdown-arrow4 {
+    margin-left: 10px;
+}
+
+.nav-link4 img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+.nav-link5 {
+    width: 100%;
+    color: #fff;
+    padding-right: 5%;
+    display: block;
+    margin-top: -16.99rem;
+    margin-left: 46.9rem;
+    font-size: 700;
+}
+
+.nav-link5:focus {
+   background: #000;
+}
+
+@media screen and (max-width: 991px){
+.w-nav[data-collapsed=medium] .w-nav-button{
+    display: block;
+}
+
+.menu-button {
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    right: auto;
+}
+}
+
+
+@media screen and (max-width: 767px){
+    .menu-button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+.w-nav-button {
+    cursor: pointer;
+}
+
+
+.search-block {
+    padding: 24px 0 24px 18px;
+    display: inline-block;
+    position: relative;
+    margin-left: 78rem;
+    margin-top: -11.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-icon {
+   width: 20px;
+   height: 20px;
+   display: block; 
+}
+
+.search-icon img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 767px){
+   .hero-background-video {
+      display: block;
+   }
+
+   .hero-background-video {
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+   }
+
+   .w-background-video {
+    color: #fff;
+    overflow: hidden;
+   }
+}
+
+
+.w-embed:before {
+   content: "";
+   grid-area: 1/1/2/2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   grid-column-end: 2;
+   display: table;
+}
+
+
+.section-template {
+    height: 95vh;
+    min-width: 1400px;
+    min-height: 600px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: linear-gradient(90deg, rgba(0,0,0,.3), 
+    rgba(255, 255, 255, 0) 50%), url(
+        https://assets-global.website-files.com/613a860b6005a3bcb87aca81/623b6f739362642d2b83c3f7_bethel-hero-bg.jpg
+    );
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    align-items: center;
+    justify-items: stretch;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
