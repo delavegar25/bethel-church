@@ -231,6 +231,41 @@ header {
     max-width: 100%;
 }
 
+
+
+@media screen and (max-width: 767px){
+    .nav-search-block {
+        padding-top: 10px;
+        width: 100px;
+        max-width: 500px;
+        display: block;
+        position: relative;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .search-input {
+        margin-bottom: 24px;
+        font-size: 16px;
+        height: 54px;
+        background-color: #f6f6f6;
+        border: 1px #000;
+        border-radius: 0;
+        flex: 1;
+        padding: 0.20px;
+        line-height: 18px;
+        display: inline-block;
+    }
+
+    .w-input, .w-select {
+        width: 100%;
+        color: #333;
+        vertical-align: middle;
+    } 
+}
+
+
 @media screen and (max-width: 767px){
    .hero-background-video {
       display: block;
@@ -354,3 +389,4 @@ header {
         position: relative;
     }
 }
+
