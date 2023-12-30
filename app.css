@@ -325,12 +325,14 @@ header {
 
 @media screen and (max-width: 767px){
      .bethel-vision-title {
+        display: block;
         line-height: 50px;
      }
 }
 
 @media screen and (max-width: 991px){
     .bethel-vision-title {
+        display: block;
         font-size: 54px;
         text-transform: uppercase;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -340,6 +342,7 @@ header {
 
 @media screen and (max-width: 767px){
     .bethel-vision-title1 {
+        display: block;
         font-size: 22px;
         line-height: 32px;
         position: relative;
