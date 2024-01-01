@@ -233,6 +233,7 @@ header {
 
 
 
+
 @media screen and (max-width: 767px){
    .hero-background-video {
       display: block;
@@ -325,7 +326,9 @@ header {
 @media screen and (max-width: 767px){
      .bethel-vision-title {
         display: block;
-        line-height: 50px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 54px;
      }
 }
 
