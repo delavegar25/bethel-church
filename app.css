@@ -305,10 +305,6 @@ header {
     min-height: 600px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-image: linear-gradient(90deg, rgba(0,0,0,.3), 
-    rgba(255, 255, 255, 0) 50%), url(
-        https://assets-global.website-files.com/613a860b6005a3bcb87aca81/623b6f739362642d2b83c3f7_bethel-hero-bg.jpg
-    );
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
