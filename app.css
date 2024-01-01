@@ -351,13 +351,17 @@ a {
         width: 500px;
      }
 
+
+
      .section-template {
         width: 500px;
+        visibility: visible;
      }
 
      .video-bg-church {
         width: 500px;
         height: 500px;
+        visibility: visible;
      }
 
 
@@ -365,15 +369,18 @@ a {
         margin-top: 11.6rem;
         font-size: .47rem;
         display: block;
+        visibility: visible;
     }
 
     .bethel-vision-title {
         display: block;
+        visibility: visible;
     }
 
     .bethel-vision-title1 {
         display: grid;
         font-size: .75rem;
+        visibility: visible;
     }
 
 }
