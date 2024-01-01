@@ -7,27 +7,22 @@ body {
     width: fit-content;
 }
 
-header {
-    background: #333;
-    margin-top: -1.3rem;
+.urgent-update, .update-container {
+    display: block;
 }
 
-.nav-bar {
-    background: #000;
-    border-radius: 6px;
-    outline: 2px solid #b5b5b5;
-    width: 100%;
-    height: 80px;
+.urgent-text {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
-.nav-bar h4 {
-    color: #fff;
-    font-size: 1.45rem;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 1.1rem;
-    padding: 1.1rem;
+.urgent-update a {
+    cursor: pointer;
+    text-decoration: underline;
 }
+
+
 
 .dropdown-toggle {
   background-position: 83%;
