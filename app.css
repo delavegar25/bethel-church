@@ -393,6 +393,38 @@ header {
    align-items: center;
 }
 
+
+.button-arrow {
+  cursor: pointer;
+}
+
+
+.join-person{
+   border: 8px solid #000;
+   background: #000;  
+}
+
+.join-p {
+ color: #fff;
+}
+
+.join-online {
+   border: 8px solid #000;
+   background: #000;  
+}
+
+.join-p1 {
+ color: #fff;
+ margin-top: 0.8em;
+}
+
+
+.button-arrow-icon {
+   margin-left: 0.84em;
+}
+
+
+
 /* make all anchor tag links text-decoration properties to none */
 
 a {
