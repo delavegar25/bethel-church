@@ -182,51 +182,6 @@ header {
 
 
 
-@media screen and (max-width: 767px){
- .search-block {
-    padding: 24px 0 24px 18px;
-    display: inline-block;
-    position: relative;
-    margin-left: 78rem;
-    margin-top: -11.2rem;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.search-icon {
-   width: 20px;
-   height: 20px;
-   display: block; 
-}
-
-.search-icon img{
-    vertical-align: middle;
-    max-width: 100%;
-}
-}
-
-
-@media screen and (max-width: 767px){
-   .hero-background-video {
-      display: block;
-   }
-
-   .hero-background-video {
-    z-index: 0;
-    width: 100%;
-    height: auto;
-   }
-
-   .w-background-video {
-    color: #fff;
-    overflow: hidden;
-   }
-
-   .search-icon {
-    display: block;
-   }
-}
-
 
 .w-embed:before {
    content: "";
@@ -262,11 +217,6 @@ header {
     display: block;
 }
 
-@media screen and (max-width: 767px){
-   .container {
-    overflow: auto;
-   }    
-}
 
 .container {
     margin-left: auto;
@@ -356,42 +306,7 @@ a {
   text-decoration: none;
 }
 
-/* media query for the buttons (hero-buttons) */
 
-@media screen and (max-width: 767px) {
-   .hero-buttons {
-    flex-direction: column;
-   }
-
- 
-   .join-person {
-      display: block;
-      margin-right: -1.5rem;
-   }
-   
-   .join-online {
-    display: block;
-   }
-}
-
-.content-section{
-    background: #fff;
-    margin-top: 28.5rem;
-}
-
-.content-header {
-   display: flexbox;
-   font-size: 4rem;
-   overflow: hidden;
-   font-family: 'Times New Roman', Times, serif;
-   font-weight: 800;
-}
-
-.content-paragraph {
-  display: flexbox;
-  font-size: 2.5rem;
-  font-weight: 500;
-}
 
 
 @media screen and (max-width: 780px) {
