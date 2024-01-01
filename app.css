@@ -180,35 +180,10 @@ header {
    background: #000;
 }
 
-@media screen and (max-width: 991px){
-.w-nav[data-collapsed=medium] .w-nav-button{
-    display: block;
-}
-
-.menu-button {
-    color: #fff;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    position: relative;
-    right: auto;
-}
-}
 
 
 @media screen and (max-width: 767px){
-    .menu-button {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-
-.w-nav-button {
-    cursor: pointer;
-}
-
-
-.search-block {
+ .search-block {
     padding: 24px 0 24px 18px;
     display: inline-block;
     position: relative;
@@ -227,6 +202,7 @@ header {
 .search-icon img{
     vertical-align: middle;
     max-width: 100%;
+}
 }
 
 
@@ -418,4 +394,29 @@ a {
 }
 
 
+@media screen and (max-width: 780px) {
+     .content-header {
+        font-size: .48rem;
+        font-weight: 600;
+        display: flex;
+     }
 
+     .content-paragraph {
+        font-size: .49rem;
+        font-weight: 500;
+        display: flex;
+     }
+
+     .nav-link, .nav-link1, .nav-link2, .nav-link3,
+     .nav-link4, .nav-link5 {
+        display: none;
+     }
+
+     .nav-bar {
+        width: 500px;
+     }
+
+     .section-template {
+        width: 500px;
+     }
+}
