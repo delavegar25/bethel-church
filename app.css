@@ -386,3 +386,43 @@ header {
     }
 }
 
+/* hero-buttons */ 
+.hero-buttons {
+   display: block;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+/* make all anchor tag links text-decoration properties to none */
+
+a {
+  text-decoration: none;
+}
+
+/* media query for the buttons (hero-buttons) */
+
+@media screen and (max-width: 767px) {
+   .button-arrow {
+      padding: 17px 26px;
+      height: auto;
+      color: #fff;
+      white-space: nowrap;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1em;
+   }
+
+   .mr3 {
+      margin-right: 24px;
+   }
+ 
+   .l2 {
+      margin-bottom: 16px;
+   }
+
+   .w-inline-block {
+     max-width: 100%;
+     display: inline-block;
+   }
+   
+}
