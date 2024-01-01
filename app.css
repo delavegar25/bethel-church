@@ -5,8 +5,6 @@ body {
     background: #fff;
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: fit-content;
-    min-height: 100%;
-    background-position: fixed;
 }
 
 header {
@@ -232,8 +230,6 @@ header {
 }
 
 
-
-
 @media screen and (max-width: 767px){
    .hero-background-video {
       display: block;
@@ -251,7 +247,7 @@ header {
    }
 
    .search-icon {
-    display: none;
+    display: block;
    }
 }
 
@@ -276,7 +272,7 @@ header {
 
 
 .video-bg-church {
-    width: 1600px;
+    width: 1400px;
 }
 
 
@@ -310,7 +306,7 @@ header {
 .bethel-vision-title {
     display: block;
     margin: .67em 0;
-    margin-top: -50.98rem;
+    margin-top: -40.98rem;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -401,3 +397,25 @@ a {
     display: block;
    }
 }
+
+.content-section{
+    background: #fff;
+    margin-top: 28.5rem;
+}
+
+.content-header {
+   display: flexbox;
+   font-size: 4rem;
+   overflow: hidden;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 800;
+}
+
+.content-paragraph {
+  display: flexbox;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+
