@@ -330,6 +330,14 @@ header {
         font-weight: 700;
         font-size: 54px;
      }
+
+     .bethel-vision-title1 {
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        font-size: 0.45em;
+        margin-right: 22rem;
+     }
 }
 
 @media screen and (max-width: 991px){
@@ -411,27 +419,17 @@ a {
 /* media query for the buttons (hero-buttons) */
 
 @media screen and (max-width: 767px) {
-   .button-arrow {
-      padding: 17px 26px;
-      height: auto;
-      color: #fff;
-      white-space: nowrap;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 1em;
+   .hero-buttons {
+    flex-direction: column;
    }
 
-   .mr3 {
-      margin-right: 24px;
-   }
  
-   .l2 {
-      margin-bottom: 16px;
-   }
-
-   .w-inline-block {
-     max-width: 100%;
-     display: inline-block;
+   .join-person {
+      display: block;
+      margin-right: -1.5rem;
    }
    
+   .join-online {
+    display: block;
+   }
 }
