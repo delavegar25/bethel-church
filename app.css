@@ -360,5 +360,20 @@ a {
         height: 500px;
      }
 
+    
+    .grid-text {
+        margin-top: 11.6rem;
+        font-size: .47rem;
+        display: block;
+    }
+
+    .bethel-vision-title {
+        display: block;
+    }
+
+    .bethel-vision-title1 {
+        display: grid;
+        font-size: .75rem;
+    }
 
 }
