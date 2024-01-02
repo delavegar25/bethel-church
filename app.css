@@ -114,7 +114,7 @@ a {
 img {
     max-width: 100%;
     display: inline-block;
-    vertical-align: middle;
+    border: 0;
 }
 
 @media screen and (max-width: 991px){
@@ -353,4 +353,20 @@ img {
 
 .w-col {
     min-height: 1px;
+}
+
+@media screen and (max-width: 991px){
+    .nav-blue-line, .nav-dropdown-arrow{
+        display: none;
+    } 
+}
+
+.nav-dropdown-arrow {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .subscribe-form, .dropdown-toggle{
+        display: block;
+    }
 }
