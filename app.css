@@ -396,6 +396,8 @@ img {
 @media screen and (max-width: 767px) {
    .nav-dropdown-section {
     width: 100%;
+    margin-right: 0;
+    display: block;
    }   
 }
 
@@ -403,11 +405,6 @@ img {
     margin-left: 0;
 }
 
-.nav-dropdown-section {
-    padding-left: 0;
-    padding-right: 0;
-    position: relative;
-}
 
 
 @media screen and (max-width: 767px) {
@@ -445,5 +442,7 @@ img {
     align-items: flex-start;
     padding-left: 0;
     padding-right: 0;
+    flex: 1;
     position: relative;
 }
+
