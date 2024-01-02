@@ -270,3 +270,31 @@ img {
 }
 
 
+
+@media screen and (max-width: 767px){
+     .nav-dropdown.church.w--open, .nav-dropdown.get-involved.w--open,
+     .nav-dropdown-columns, .nav-dropdown-column {
+        display: block;
+     }
+}
+
+@media screen and (max-width: 991px){
+    .nav-dropdown-columns {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.nav-dropdown-columns {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .w-row, .w-container .w-row{
+        margin-left: 0;
+        margin-right: 0;
+    }    
+}
+
