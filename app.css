@@ -240,7 +240,7 @@ img {
    z-index: 9990;
    background-color: var(--white);
    top: 68px;
-   box-shadow: 0 0 44px rgba(0,0,0,.2);
+   box-shadow: 0 0 44px rgba(241, 91, 91, 0.2);
 }
 
 .w-dropdown-list {
@@ -345,3 +345,6 @@ img {
     position: relative;
 }
 
+.w-col {
+    min-height: 1px;
+}
