@@ -164,7 +164,6 @@ img {
    display: inline-block;
    margin-left: auto;
    margin-right: auto;
-   text-align: left;
 }
 
 
@@ -198,8 +197,6 @@ img {
    vertical-align: top;
    text-align: left;
    white-space: nowrap;
-   margin-left: auto;
-   margin-right: auto;
    text-decoration: none;
    position: relative;
 }
@@ -427,5 +424,26 @@ img {
     padding-bottom: 16px;
     font-size: 13px;
     line-height: 1em;
+    position: relative;
+}
+
+
+@media screen and (max-width: 767px) {
+   .nav-dropdown-section.center {
+       width: 100%;
+       margin-right: 0;
+       display: block;
+   }    
+}
+
+.nav-dropdown-section.left, .nav-dropdown-section.center{
+    flex: 1;
+}
+
+.nav-dropdown-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
 }
