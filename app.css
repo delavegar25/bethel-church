@@ -5,6 +5,8 @@ body {
    min-height: 100%;
    background-color: #fff;
    margin: 0;
+   font-weight: 400;
+   line-height: 20px;
 }
 
 * {
@@ -147,6 +149,8 @@ img {
 
 .nav-menu-item {
        width: auto;
+       color: var(--white);
+       font-size: 18px;
        padding-left: 0;
        padding-right: 0;
 }
@@ -245,4 +249,24 @@ img {
    display: none;
    position: absolute;
 }
+
+
+@media screen and (max-width: 991px){
+   .nav-blue-line {
+      display: none;
+   }
+}
+
+.nav-blue-line {
+  width: 10%;
+  height: 6px;
+  background-color: var(--victor);
+  padding-bottom: 0;
+  position: absolute;
+  top: -6px;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
 
