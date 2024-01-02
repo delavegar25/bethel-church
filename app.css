@@ -35,7 +35,7 @@ body {
     --beunaventure: #f28717;
     --count: #7a7869;
     --market: #2b3b4f;
-    --offblack: #1a1a1a;
+    --off-black: #1a1a1a;
     --knighton: #a37378;
 }
 
@@ -136,7 +136,64 @@ img {
 }
 
 @media screen and (max-width: 991px){
-    .w-nav[data-collapsed=medium] .w-nav-menu {
-        display: none;
+    .nav-menu-item {
+       border-top: 1px solid var(--off-black);
+       margin-left: 0;
+       margin-right: 0;
+       display: block;
     }
+}
+
+.nav-menu-item {
+       width: auto;
+       color: var(--white);
+       padding-left: 0;
+       padding-right: 0;
+       font-size: 18px;
+}
+
+.w-dropdown {
+   text-align: left;
+   position: relative;
+   z-index: 900;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.dropdown-toggle.about {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .dropdown-toggle {
+        background-image: url(https://assets-global.website-files.com/613a860.../6161cde5);
+        background-position: 92%;
+        background-repeat: no-repeat;
+        background-size: auto;
+        padding: 8%;
+    }
+}
+
+.dropdown-toggle {
+    height: 68%;
+    padding: 26px 20px 20px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.w-dropdown-toggle {
+   cursor: pointer;
+}
+
+.w-dropdown-btn, .w-dropdown-toggle {
+   vertical-align: top;
+   color: #222;
+   text-align: left;
+   white-space: nowrap;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+   position: relative;
 }
