@@ -370,3 +370,20 @@ img {
         display: block;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .nav-dropdown.church {
+        width: 100%;
+     }    
+}
+
+.nav-blue-line.church {
+    width: 11%;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-blue-line{
+        display: none;
+    }
+}
+
