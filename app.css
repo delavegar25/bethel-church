@@ -291,10 +291,57 @@ img {
     position: relative;
 }
 
+
 @media screen and (max-width: 767px) {
     .w-row, .w-container .w-row{
         margin-left: 0;
         margin-right: 0;
     }    
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-dropdown-column {
+        display: block;
+    }
+}
+
+
+.nav-dropdown-column {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .w-col {
+        right: auto;
+        left: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-dropdown-link{
+        width: 100%;
+    }
+}
+
+.nav-dropdown-link {
+    color: var(--black);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 16px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.w-dropdown-link {
+    vertical-align: top;
+    text-align: left;
+    white-space: nowrap;
+    text-decoration: none;
+    position: relative;
 }
 
