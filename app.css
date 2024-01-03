@@ -186,6 +186,7 @@ img {
 .dropdown-toggle {
     height: 68%;
     padding: 26px 20px 20px;
+    font-weight: 400;
     line-height: 18px;
 }
 
@@ -260,7 +261,6 @@ img {
 }
 
 .nav-blue-line {
-  width: 10%;
   height: 6px;
   background-color: var(--victor);
   padding-bottom: 0;
@@ -379,7 +379,7 @@ img {
 }
 
 @media screen and (max-width: 991px) {
-    .nav-blue-line{
+    .nav-blue-line, .nav-dropdown-arrow{
         display: none;
     }
 }
@@ -448,3 +448,13 @@ img {
     position: relative;
 }
 
+@media screen and (max-width: 991px) {
+    .nav-dropdown.get-involved, .nav-dropdown.events, 
+    .nav-dropdown.schools, .nav-dropdown.resources {
+          width: 100%;
+    }
+}
+
+.nav-blue-line.get-involved {
+   width: 18%;
+}
