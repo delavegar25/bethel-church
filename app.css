@@ -66,9 +66,11 @@ body {
 .navbar-container {
  z-index: auto;
  width: 90%;
+ max-width: 1360px;
  margin-left: auto;
  margin-right: auto;
  position: relative;   
+ top: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -112,7 +114,7 @@ a {
 
 img {
     max-width: 100%;
-    display: inline-block;
+    vertical-align: middle;
     border: 0;
 }
 
@@ -493,7 +495,6 @@ img {
 }
 
 
-
 @media screen and (max-width: 991px) {
     .nav-menu-item.give {
         padding-left: 8%;
@@ -507,3 +508,132 @@ img {
     font-size: 16px;
 }
 
+@media screen and (max-width: 991px) {
+    .w-nav[data-collapsed=medium] .w-nav-button{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .menu-button {
+        color: #fff;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        position: relative;
+        right: auto;
+    }
+}
+
+.w-nav-button {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-icon {
+       margin-top: -2px;
+    }
+}
+
+[class^=w-icon-], [class*=\ w-icon-] {
+    font-variant: normal;
+    text-transform: none;
+    font-style: normal;
+    -webkit-font-smoothing: antialised;
+    font-weight: 400;
+    line-height: 1;
+    font-family: webflow-icons!important;
+}
+
+@media screen and (max-width: 767px) {
+    .search-block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.search-block {
+    padding: 24px 0 24px 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.w-nav-brand {
+    color: #333;
+    text-decoration: none;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.w-clearfix:after {
+   clear: both;
+}
+
+.w-clearfix:before, .w-clearfix:after{
+    content: "";
+    grid-area: 1/1/2/2;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2; 
+    display: table;
+}
+
+@media screen and (max-width: 767px) {
+    .search-bar {
+        height: 86px;
+        background-color: var(--black);
+        bottom: -86px;
+    }
+}
+
+
+.search-bar {
+   margin-bottom: 0;
+   display: none;
+   position: absolute;
+   top: auto;
+   left: 0%;
+   right: 0%;
+}
+
+.w-form {
+   margin: 0 0 15px;
+}
+
+@media screen and (max-width: 479px) {
+    .container._1360px {
+       align-items: flex-start;
+    }
+}
+
+.container._1360px {
+    width: 90%;
+    height: auto;
+    max-width: 1360px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+       overflow: auto;
+    }
+}
+
+.container {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
