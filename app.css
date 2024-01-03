@@ -744,3 +744,47 @@ input {
    background: #ddd;
 }
 
+/* section-home */
+@media screen and (max-width: 479px) {
+    .section.home-hero, .section.impact-hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .section.home-hero {
+       margin-top: 0;
+       margin-bottom: 0;
+    }
+}
+
+.section.home-hero {
+   height: 95vh;
+   min-height: 500px;
+   color: #fff;
+   background-image: linear-gradient(90deg,rgba(0,0,0,.3),rgba(255,255,255,0) 50%),url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/623b6f739362642d2b83c3f7_bethel-hero-bg.jpg);
+   background-position: 0,0,50%;
+   background-repeat: repeat, no-repeat;
+   background-size: auto,cover;
+   align-items: center;
+   justify-items: stretch;
+   display: flex;
+   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+       padding-top: 60px;
+       padding-bottom: 60px;
+    }
+}
+
+.section {
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 0;
+  flex-flow: row;
+  overflow: auto;
+}
