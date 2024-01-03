@@ -6,7 +6,6 @@ body {
    background-color: #fff;
    margin: 0;
    font-weight: 400;
-   color: #000;
 }
 
 * {
@@ -700,3 +699,48 @@ input {
   text-align: start;
   cursor: text;
 }
+
+.search-submit {
+   height: 54px;
+   background-color: var(--black);
+   position: relative;
+}
+
+.w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.w-nav-overlay {
+   width: 100%;
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   right: 0;
+   overflow: hidden;
+}
+
+
+.navbar {
+   z-index: 9000;
+   width: 100%;
+   background-color: #000;
+   padding-top: 0;
+   padding-bottom: 0;
+   display: block;
+   position: fixed;
+   top: 0;
+   box-shadow: 0 1px 80px rgba(255,255,255,.16);
+}
+
+.w-nav {
+   background: #ddd;
+}
+
