@@ -156,11 +156,13 @@ img {
        width: auto;
        padding-left: 0;
        padding-right: 0;
+       font-size: 18px;
 }
 
 .w-dropdown {
    position: relative;
    z-index: 900;
+   text-align: left;
    display: inline-block;
    margin-left: auto;
    margin-right: auto;
@@ -230,7 +232,6 @@ img {
 
 @media screen and (max-width: 767px) {
     .nav-dropdown {
-       width: 82%;
        padding: 20px 10% 20px 8%;
        left: 0;
     }
@@ -239,6 +240,7 @@ img {
 .nav-dropdown {
    z-index: 9990;
    background-color: var(--white);
+   border: 0 solid #000;
    top: 68px;
    box-shadow: 0 0 44px rgba(241, 91, 91, 0.2);
 }
