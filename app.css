@@ -324,6 +324,8 @@ img {
     }
 }
 
+
+
 @media screen and (max-width: 767px) {
     .nav-dropdown-link{
         width: 100%;
@@ -436,6 +438,10 @@ img {
    }    
 }
 
+.nav-dropdown-section.center {
+   flex: 1;
+}
+
 .nav-dropdown-section.left, .nav-dropdown-section.center{
     flex: 1;
     margin-right: 60px;
@@ -460,3 +466,44 @@ img {
 .nav-blue-line.get-involved {
    width: 18%;
 }
+
+
+.nav-blue-line.events {
+    width: 22%;
+}
+
+.nav-dropdown-link.full-width {
+    width: 100%;
+}
+
+.nav-blue-line.school {
+    width: 17%;
+}
+
+.nav-blue-line.resources {
+    width: 39%;
+}
+
+/* give section */
+
+@media screen and (max-width: 767px) {
+    .nav-menu-item.give {
+        margin-left: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .nav-menu-item.give {
+        padding-left: 8%;
+        padding-right: 20px;
+    }
+}
+
+.nav-menu-item.give {
+    height: 68px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
