@@ -6,6 +6,7 @@ body {
    background-color: #fff;
    margin: 0;
    font-weight: 400;
+   color: #000;
 }
 
 * {
@@ -636,4 +637,66 @@ img {
    margin-left: auto;
    margin-right: auto;
    display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+    .nav-search-block{
+      padding-top: 10px;
+    }
+}
+
+.nav-search-block {
+  width: 100%;
+  max-width: 500px;
+  padding-bottom: 20px;
+  display: block;
+  position: relative;
+}
+
+.search-wrapper {
+    align-items: stretch;
+    display: flex;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+@media screen and (max-width: 767px) {
+    .search-input {
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+}
+
+.search-input {
+   height: 54px;
+   background-color: #f6f6f6;
+   border: 1px #000;
+   border-radius: 0;
+   flex: 1;
+   padding: 0 20px;
+   line-height: 18px;
+   display: inline-block;
+}
+
+.w-input, .w-select {
+    width: 100%;
+    color: #333;
+    vertical-align: middle;
+} 
+
+button, input, optgroup, select, textarea {
+   font: inherit;
+   margin: 0;
+}
+
+input {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  cursor: text;
 }
