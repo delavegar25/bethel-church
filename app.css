@@ -384,6 +384,8 @@ img {
     }
 }
 
+/* dropdown-section-left for media */
+
 @media screen and (max-width: 767px) {
     .nav-dropdown-section.left {
         display: block;
@@ -420,7 +422,6 @@ img {
     letter-spacing: 2px;
     text-transform: uppercase;
     white-space: nowrap;
-    padding-bottom: 16px;
     font-size: 13px;
     line-height: 1em;
     position: relative;
@@ -437,6 +438,7 @@ img {
 
 .nav-dropdown-section.left, .nav-dropdown-section.center{
     flex: 1;
+    margin-right: 60px;
 }
 
 .nav-dropdown-section {
