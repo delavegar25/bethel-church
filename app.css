@@ -70,6 +70,8 @@ body {
  margin-left: auto;
  margin-right: auto;
  position: relative;   
+ justify-content: flex-start;
+ align-items: center;
  top: 0;
 }
 
@@ -572,14 +574,16 @@ img {
 }
 
 .search-icon {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display: block;
+    margin-left: 1200px;
 }
 
 .w-clearfix:after {
    clear: both;
 }
+
 
 .w-clearfix:before, .w-clearfix:after{
     content: "";
@@ -629,6 +633,12 @@ img {
 @media screen and (max-width: 767px) {
     .container {
        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .search-icon {
+        margin-left: 130px;
     }
 }
 
@@ -739,6 +749,8 @@ input {
    top: 0;
    box-shadow: 0 1px 80px rgba(255,255,255,.16);
 }
+
+
 
 .w-nav {
    background: #ddd;
