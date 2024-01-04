@@ -751,14 +751,12 @@ input {
 }
 
 @media screen and (max-width: 991px) {
-    .navbar{
+    .w-nav{
         margin-top: 20px;
     }
 }
 
-.w-nav {
-   background: #ddd;
-}
+
 
 /* section-home */
 @media screen and (max-width: 479px) {
