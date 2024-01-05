@@ -801,6 +801,10 @@ input {
   border-radius: 0;
   flex-flow: row;
   overflow: auto;
+  align-items: center;
+  display: block;
+  position: relative;
+  overflow: auto;
 }
 
 @media screen and (max-width: 767px){
@@ -881,7 +885,9 @@ audio, canvas, progress, video {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    display: block;
 }
+
 
 
 .grid-text-block.hero-left {
@@ -919,7 +925,7 @@ audio, canvas, progress, video {
 
 @media screen and (max-width: 991px) {
     .bethel-vision-title {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 }
 
@@ -945,10 +951,10 @@ audio, canvas, progress, video {
 h1{
     margin-top: 0;
     margin-bottom: 24px;
-    margin: 0.67rem 0;
+    margin: 0.67em 0;
     display: block;
-    margin-block-start: 0.67rem;
-    margin-block-end: 0.67rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -969,8 +975,8 @@ h1{
 h4 {
     margin-top: 0;
     display: block;
-    margin-block-start: 1.33rem;
-    margin-block-end: 1.33rem;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -1043,5 +1049,130 @@ h4 {
     .button-arrow-text {
         line-height: 18px;
     }
+}
+
+.container._1360px {
+   width: 90%;
+   height: auto;
+   max-width: 1360px;
+   flex-direction: row;
+   position: relative;
+}
+
+@media screen and (max-width: 479px) {
+    .container._1360px{
+       align-items: flex-start;
+    }
+}
+
+/* betherl section .container _1360px */
+
+@media screen and (max-width: 767px) {
+    h2{
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.side-by-side-grid.top-aligned {
+    align-items: start;
+}
+
+@media screen and (max-width: 767px) {
+    .side-by-side-grid {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        display: block;
+    }
+}
+
+.side-by-side-grid {
+    flex-flow: wrap;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    justify-content: flex-start;
+    justify-items: start;
+    margin-right: auto;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .flex-grid-item {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .flex-grid-item {
+        min-width: 200px;
+        justify-content: center;
+    }
+}
+
+.flex-grid-item {
+ flex-direction: column;
+ flex: 1;
+ align-self: stretch;
+ align-items: stretch;
+ position: relative;
+ overflow: visible;   
+}
+
+.heading-3.ivypresto._300 {
+     font-weight: 300;
+}
+
+.ivypresto.l4 {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .heading-3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.heading-3 {
+    text-transform: none;
+}
+
+.ivypresto {
+    font-family: ivypresto-display, sans-serif;
+}
+
+.l4 {
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+        position: relative;
+    }
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 1px;
+}
+
+.button-arrow.white-smoke {
+    background-color: var(--white-smoke);
+    color: var(--black);
 }
 
