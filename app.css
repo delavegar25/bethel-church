@@ -79,7 +79,7 @@ body {
 
 @media screen and (max-width: 991px) {
     .navbar-container{
-        height: auto;
+        height: 30px;
     }
 }
 
