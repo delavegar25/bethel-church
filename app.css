@@ -81,9 +81,7 @@ body {
     .navbar-container{
         height: 30px;
         position: absolute;
-        z-index: -1;
-        margin-top: 10px;
-        visibility: hidden;
+        z-index: -100;
     }
 }
 
