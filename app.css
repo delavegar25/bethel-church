@@ -756,7 +756,13 @@ input {
     }
 }
 
+.nav-link {
+    color: #fff;
+}
 
+.nav-menu-item.give {
+    color: #fff;
+}
 
 /* section-home */
 @media screen and (max-width: 479px) {
