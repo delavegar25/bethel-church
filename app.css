@@ -651,6 +651,11 @@ img {
    display: block;
 }
 
+@media screen and (max-width: 991px){
+    .navbar-container {
+      margin-top: 30px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .nav-search-block{
