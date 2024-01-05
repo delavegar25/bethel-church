@@ -76,6 +76,11 @@ body {
  height: 130px;
 }
 
+@media screen and (max-width: 991px) {
+    .navbar.w-nav {
+        width: 50px;
+    } 
+}
 
 .brand.w--current {
     padding-right: 0;
@@ -132,7 +137,6 @@ img {
     .nav-menu {
         width: 100%;
         left: auto;
-        top: 15px;
     }
 }
 
