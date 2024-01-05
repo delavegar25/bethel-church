@@ -80,10 +80,10 @@ body {
 @media screen and (max-width: 991px) {
     .navbar-container .w-clearfix{
         height: 5px;
+        background-color: #000;
     }
 
 }
-
 
 .brand.w--current {
     padding-right: 0;
@@ -217,7 +217,7 @@ img {
 
 @media screen and (max-width: 991px){
 .nav-link {
-  width: 1px;
+  width: 100%;
   color: #fff;
   margin-left: 0;
   margin-right: 0;
