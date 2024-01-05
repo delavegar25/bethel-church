@@ -898,6 +898,12 @@ audio, canvas, progress, video {
 }
 
 @media screen and (max-width: 991px) {
+    .grid-text-block.hero-left {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 991px) {
     .grid-text-block {
         margin-right: 0;
         position: fixed;
@@ -910,6 +916,12 @@ audio, canvas, progress, video {
     display: block;
 }
 
+
+@media screen and (max-width: 991px) {
+    .bethel-vision-title {
+        margin-bottom: 30px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .bethel-vision-title {
