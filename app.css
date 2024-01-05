@@ -512,6 +512,13 @@ img {
     font-size: 16px;
 }
 
+.w-nav-link{
+ vertical-align: top;
+ padding: 20px;
+ position: relative;
+ top: 25px;
+}
+
 @media screen and (max-width: 991px) {
     .w-nav[data-collapsed=medium] .w-nav-button{
         display: block;
@@ -651,11 +658,10 @@ img {
    display: block;
 }
 
-@media screen and (max-width: 991px){
-    .navbar-container {
-      margin-top: 30px;
-    }
+.w-nav-button.w-open {
+   color: #fff;
 }
+
 
 @media screen and (max-width: 767px) {
     .nav-search-block{
