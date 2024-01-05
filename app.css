@@ -900,6 +900,7 @@ audio, canvas, progress, video {
 @media screen and (max-width: 991px) {
     .grid-text-block {
         margin-right: 0;
+        position: fixed;
     }
 }
 
