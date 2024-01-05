@@ -779,6 +779,8 @@ input {
 }
 
 /* section-home */
+/* section video*/
+
 @media screen and (max-width: 479px) {
     .section.home-hero, .section.impact-hero {
         grid-template-columns: 1fr;
@@ -822,3 +824,84 @@ input {
   flex-flow: row;
   overflow: auto;
 }
+
+@media screen and (max-width: 767px){
+    .hero-background-video {
+        display: block;
+    }
+}
+
+.hero-background-video {
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;   
+}
+
+.w-background-video {
+    color: #fff;
+    overflow: hidden;
+}
+
+.w-embed:after {
+    clear: both;
+}
+
+.w-embed:before, .w-embed:after {
+    content: "";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+.w-background-video > video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    background-position: 50%;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: -100%;
+    right: -100%;
+}
+
+audio, canvas, progress, video {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+/* container home-hero*/
+
+.container._1600px.home-hero {
+    margin-bottom: 16px;
+}
+
+.container._1600px {
+    width: 90%;
+    max-width: 1600px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        overflow: auto;
+    }
+}
+
+.container {
+    flex-flow: column wrap;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
