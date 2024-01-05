@@ -78,8 +78,7 @@ body {
 
 @media screen and (max-width: 991px) {
     .navbar-container {
-        top: 25px;
-
+        top: -25px;
     }
 
 }
