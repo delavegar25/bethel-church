@@ -46,7 +46,6 @@ body {
 }
 
 
-
 .urgent-text {
     display: block;
     margin-block-start: 1em;
@@ -128,14 +127,7 @@ img {
     .w-nav[data-collapsed=medium] .w-nav-menu {
         display: none;
     }
-    .nav-menu {
-        overflow: auto;
-        background-color: #000;
-    }
-
-    .w-nav-menu {
-        position: relative;
-    }
+   
 }
 
 @media screen and (max-width: 479px){
@@ -246,6 +238,13 @@ img {
     }
 }
 
+.nav-dropdown {
+   z-index: 9990;
+   background-color: var(--white);
+   border: 0 solid #000;
+   top: 68px;
+   box-shadow: 0 0 44px rgba(241, 91, 91, 0.2);
+}
 
 .w-dropdown-list {
    min-width: 100%;
