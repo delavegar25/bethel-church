@@ -78,7 +78,7 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-    .navbar-container{
+    .navbar-container .w-clearfix{
         height: 5px;
     }
 
