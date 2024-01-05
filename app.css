@@ -110,7 +110,13 @@ a {
     text-decoration: none;
 }
 
-
+.nav-logo {
+    max-height: 40px;
+    letter-spacing: .4px;
+    margin-top: 12px;
+    margin-right: 20px;
+    font-weight: 400;
+}
 
 img {
     max-width: 100%;
@@ -240,13 +246,6 @@ img {
     }
 }
 
-.nav-dropdown {
-   z-index: 9990;
-   background-color: var(--white);
-   border: 0 solid #000;
-   top: 68px;
-   box-shadow: 0 0 44px rgba(241, 91, 91, 0.2);
-}
 
 .w-dropdown-list {
    min-width: 100%;
