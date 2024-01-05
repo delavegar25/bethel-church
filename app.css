@@ -127,7 +127,6 @@ img {
     .w-nav[data-collapsed=medium] .w-nav-menu {
         display: none;
     }
-   
 }
 
 @media screen and (max-width: 479px){
@@ -214,7 +213,7 @@ img {
   margin-left: 0;
   margin-right: 0;
   padding-right: 5%;
-  display: block;  
+  display: none;  
 }
 }
 
