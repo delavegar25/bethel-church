@@ -100,7 +100,6 @@ body {
 .w-nav-brand {
     color: #333;
     text-decoration: none;
-    position: relative;
 }
 
 /* make all anchor tag text decoration = none */
