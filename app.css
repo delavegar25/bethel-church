@@ -1165,3 +1165,76 @@ p {
     color: var(--black);
 }
 
+
+.section.background-black {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+@media screen and (max-width: 767px) {
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.container._1360px.bg-ministries {
+    background-image: url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/625508e9a08d1129aa5b6f38_bethel-ministries.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.heading-4.ivypresto.caps._300{
+    font-weight: 300;
+}
+
+.heading-4.ivypresto.caps{
+    text-transform: uppercase;
+}
+
+.heading-4.caps {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .heading-4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .heading-1.jumbo-2{
+        font-size: 38px;
+    }
+}
+
+.heading-1.jumbo-2{
+    line-height: 1.1em;
+}
+
+.heading-1._300 {
+    font-weight: 300;
+}
+
+.heading-1 {
+    text-transform: none;
+}
+
+h3{
+    letter-spacing: 1px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.button-arrow.white {
+    color: #000;
+    background-color: #fff;
+}
+
