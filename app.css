@@ -884,7 +884,6 @@ audio, canvas, progress, video {
 }
 
 
-
 .grid-text-block.hero-left {
     width: 100%;
     max-width: 680px;
@@ -904,6 +903,13 @@ audio, canvas, progress, video {
         margin-right: 0;
     }
 }
+
+@media screen and (max-width: 767px){
+    .flex-grid-item.collapse {
+        margin-bottom: 48px;
+    }
+}
+
 
 .grid-text-block {
     flex-direction: column;
@@ -1108,12 +1114,12 @@ h2{
 }
 
 .flex-grid-item {
- flex-direction: column;
- flex: 1;
- align-self: stretch;
- align-items: stretch;
- position: relative;
- overflow: visible;   
+   flex-direction: column;
+   flex: 1;
+   align-self: stretch;
+   align-items: stretch;
+   position: relative;
+   overflow: visible;   
 }
 
 .heading-3.ivypresto._300 {
@@ -1236,5 +1242,139 @@ h3{
 .button-arrow.white {
     color: #000;
     background-color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    flex: 1;
+    display: block;
+    position: relative;
+}
+
+
+.flex-grid-item.align-center {
+    align-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-block {
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    position: relative;
+}
+
+
+@media screen and (max-width: 767px) {
+ h6 {
+    font-size: 16px;
+    line-height: 24px;
+ }   
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+h6 {
+    display: block;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: ) {
+  .heading-1 {
+    font-size: 40px;
+    line-height: 50px;
+  }   
+}
+
+.heading-1 {
+    text-transform: none;
+    font-weight: 400;
+}
+
+.l3 {
+    margin-bottom: 24px;
+}
+
+.date-begin {
+    width: auto;
+    color: var(--court);
+    display: inline-block;
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .date-begin {
+        font-size: 18px;
+    }
+}
+
+h5 {
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .date-spacer {
+        display: inline;
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .date-spacer {
+        font-size: 18px;
+    }
+}
+
+.date-spacer {
+    width: auto;
+    color: var(--court);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .date-end {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .date-end {
+        font-size: 18px;
+    }
+}
+
+.date-end {
+    width: auto;
+    color: var(--court);
+    display: inline-block;
+}
+
+.section.background-light-tan {
+    background-color: var(--light-tan);
 }
 
