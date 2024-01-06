@@ -80,6 +80,7 @@ body {
     .navbar.w-nav {
         width: 100%;
         top: -20px;
+        position: absolute;
     } 
 }
 
