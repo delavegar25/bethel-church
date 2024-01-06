@@ -79,7 +79,7 @@ body {
 @media screen and (max-width: 991px) {
     .navbar.w-nav {
         width: 100%;
-        top: 20px;
+        top: -20px;
     } 
 }
 
