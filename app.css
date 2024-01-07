@@ -1491,7 +1491,9 @@ h5 {
     height: auto;
     background-color: transparent;
     padding: 0;
+    margin-top: 50px;
 }
+
 
 
 @media screen and (max-width: 767px) {
@@ -1515,6 +1517,7 @@ h5 {
 
 .container._1360px.bg-schools {
     padding-top: 40px;
+    display: block;
 } 
 
 .heading-6._500 {
