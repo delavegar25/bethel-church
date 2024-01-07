@@ -1445,3 +1445,75 @@ h5 {
     color: var(--white);
     outline: 3px #fff;
 }
+
+@media screen and (max-width: 479px) {
+    .container._900px, .container.bethel-music
+    .container.calender {
+        align-items: flex-start;
+    }
+}
+
+.container.bethel-music {
+    width: 90%;
+    height: 100%;
+    max-width: 1360px;
+    min-height: 400px;
+    flex-direction: row;
+    position: relative;
+}
+
+.stuck-to-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.heading-2 {
+    text-transform: none;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    .heading-2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+
+.button-arrow.small.clear.white {
+    color: var(--white);
+}
+
+.button-arrow.small.clear {
+    height: auto;
+    background-color: transparent;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+    .button-arrow.small {
+        margin-bottom: 16px;
+    }
+}
+
+.button-arrow.small {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .container._1360px.bg-schools {
+        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551289c6f4ff6c05b4ed5a_bethel-schools.jpg);
+        background-position: 0 0, 50%;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, contain;
+    }
+}
+
+.container._1360px.bg-schools {
+    padding-top: 40px;
+} 
+
