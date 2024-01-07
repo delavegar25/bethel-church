@@ -1557,3 +1557,37 @@ h5 {
     font-size: 18px;
     line-height: 18px;
 }
+
+.section.background-ab {
+   height: 90vh;
+   background-image: url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551a0a065c53d9582b66f0_bethel-property.jpg);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.section.hidden {
+    display: none;
+}
+
+
+.section.background-ab2 {
+   height: 90vh;
+   background-image: url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551a0a065c53d9582b66f0_bethel-property.jpg);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+
+.section.background-ab3 {
+   height: 90vh;
+   background-image: url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551a0a065c53d9582b66f0_bethel-property.jpg);
+   background-position: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
