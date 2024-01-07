@@ -1631,6 +1631,8 @@ h5 {
     position: relative;
 }
 
+
+
 .flex-grid-item.shrink {
     flex: 0 auto;
 }
@@ -1668,4 +1670,17 @@ object-fit: contain;
 font-weight: 400;
 position: relative;
 }
+
+@media screen and (max-width: 767px){
+    .button-arrow.collapse {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container._1360px.ab {
+       height: auto;
+    }
+}
+
 
