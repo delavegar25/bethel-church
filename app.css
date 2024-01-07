@@ -1426,3 +1426,22 @@ h5 {
     padding-bottom: 32px;
     display: flex;
 }
+
+@media screen and (max-width: 991px) {
+    .l0 {
+        position: relative;
+    }
+}
+
+.l0 {
+    margin-bottom: 0;
+}
+
+.section.bethel-music {
+    height: 90vh;
+    min-height: 500px;
+    background-color: var(--black);
+    outline-offset: 0px;
+    color: var(--white);
+    outline: 3px #fff;
+}
