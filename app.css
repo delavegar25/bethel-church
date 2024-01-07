@@ -1508,16 +1508,18 @@ h5 {
 
 @media screen and (max-width: 991px) {
     .container._1360px.bg-schools {
-        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551289c6f4ff6c05b4ed5a_bethel-schools.jpg);
+        background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+        url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551289c6f4ff6c05b4ed5a_bethel-schools.jpg);
         background-position: 0 0, 50%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, contain;
+        background-repeat: repeat,no-repeat;
+        background-size: auto,contain;
     }
 }
 
 .container._1360px.bg-schools {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+        url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/62551289c6f4ff6c05b4ed5a_bethel-schools.jpg);  
     padding-top: 40px;
-    display: block;
 } 
 
 .heading-6._500 {
@@ -1547,3 +1549,8 @@ h5 {
    text-transform: uppercase;
 }
 
+.button-arrow-text {
+    display: inline;
+    font-size: 18px;
+    line-height: 18px;
+}
