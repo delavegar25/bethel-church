@@ -921,6 +921,7 @@ audio, canvas, progress, video {
 @media screen and (max-width: 991px) {
     .bethel-vision-title {
         margin-bottom: 15px;
+        font-size: 16px;
     }
 }
 
@@ -931,11 +932,6 @@ audio, canvas, progress, video {
 }
 
 
-@media screen and (max-width: 991px){
-    .bethel-vision-title {
-        font-size: 54px;
-    }
-}
 
 .bethel-vision-title {
     text-transform: uppercase;
@@ -1637,5 +1633,39 @@ h5 {
 
 .flex-grid-item.shrink {
     flex: 0 auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .arise-build {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .arise-build {
+        margin-left: -8px;
+    }
+}
+
+.arise-build {
+    margin-bottom: 24px;
+}
+
+.heading-5.l5 {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .heading-5 {
+    font-size: 18px;
+    line-height: 24;
+    }
+}
+
+.heading-5 {
+object-fit: contain;
+font-weight: 400;
+position: relative;
 }
 
