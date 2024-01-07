@@ -1517,3 +1517,30 @@ h5 {
     padding-top: 40px;
 } 
 
+.heading-6._500 {
+   font-weight: 500;
+}
+
+.heading-6.caps {
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .l1 {
+       display: block;
+    }
+}
+
+.heading-6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.l1 {
+   margin-bottom: 8px;
+}
+
+.caps {
+   text-transform: uppercase;
+}
+
