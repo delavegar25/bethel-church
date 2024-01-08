@@ -1383,6 +1383,11 @@ h5 {
     .container._700px {
         overflow: hidden;
     }
+
+    .centered-header._18 {
+       font-size: 16px;
+       line-height: 18px;
+    }
 }
 
 
