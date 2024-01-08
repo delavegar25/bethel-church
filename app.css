@@ -1379,6 +1379,14 @@ h5 {
     max-width: 700px;
 }
 
+@media screen and (max-width: 991px) {
+    .container._700px {
+        overflow: hidden;
+    }
+}
+
+
+
 .heading-1.ivypresto._100.centered-header.l4 {
     letter-spacing: 2px;
 }
@@ -1587,100 +1595,4 @@ h5 {
    background-size: cover;
    background-attachment: fixed;
 }
-
-@media screen and (max-width: 991px) {
-    .section.abx, .section.abx-condensed {
-          height: auto;
-    }
-}
-
-.section.abx {
-    min-height: 500;
-    background-image: linear-gradient(rgba(255,255,255,.88),rgba(255,255,255,.88)),url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/625519adc9395a5a4f5c5274_bethel-floor-plan.jpg);
-    background-position: 0 0,-280px;
-    background-repeat: repeat,no-repeat;
-    background-size: auto, auto 100%;
-}
-
-@media screen and (max-width: 479px) {
-    .ab-grid {
-        width: 100%;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .ab-grid {
-        grid-template-columns: 1fr;
-        margin-left: 0;
-    }
-}
-
-.ab-grid {
-    height: 100%;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    flex-direction: row;
-    grid-template-rows: auto;
-    grid-auto-columns: minmax(30%, 1fr);
-    justify-content: center;
-    align-items: center;
-    justify-items: start;
-    margin-bottom: 0;
-    margin-right: auto;
-    position: relative;
-}
-
-
-
-.flex-grid-item.shrink {
-    flex: 0 auto;
-}
-
-
-@media screen and (max-width: 767px) {
-    .arise-build {
-        max-width: 280px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .arise-build {
-        margin-left: -8px;
-    }
-}
-
-.arise-build {
-    margin-bottom: 24px;
-}
-
-.heading-5.l5 {
-    background-color: transparent;
-}
-
-@media screen and (max-width: 767px) {
-    .heading-5 {
-    font-size: 18px;
-    line-height: 24;
-    }
-}
-
-.heading-5 {
-object-fit: contain;
-font-weight: 400;
-position: relative;
-}
-
-@media screen and (max-width: 767px){
-    .button-arrow.collapse {
-        margin-bottom: 48px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .container._1360px.ab {
-       height: auto;
-    }
-}
-
 
