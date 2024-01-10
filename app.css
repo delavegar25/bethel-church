@@ -84,6 +84,19 @@ body {
     } 
 }
 
+/* hamburger menu */
+
+.hamburger-menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.hamburger-menu a {
+    display: block;
+    color-scheme: #f2f2f2;
+    font-size: 17px;
+}
+
 .brand.w--current {
     padding-right: 0;
 }
@@ -227,6 +240,8 @@ img {
 .nav-dropdown.about {
    border: 0 solid #000;
 }
+
+
 
 /* media query for nav-dropdown */
 
@@ -703,6 +718,15 @@ input {
    position: relative;
 }
 
+
+input[type="search" i ] {
+   writing-mode: horizontal-tb !important;
+   padding-block: 1px;
+   padding-inline: 2px;
+}
+
+
+
 .w-button {
   color: #fff;
   line-height: inherit;
@@ -722,6 +746,11 @@ input {
    left: 0;
    right: 0;
    overflow: hidden;
+}
+
+
+.w-nav-overlay[data-nav-menu-open] {
+    top: 0;
 }
 
 
