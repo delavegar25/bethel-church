@@ -1971,3 +1971,32 @@ h6 {
     text-align: center;
     display: inline-block
 }
+
+@media screen and (max-width: 767px) {
+    .footer-social-text {
+        padding-top: 0;
+        padding-bottom: 4px;
+    }
+}
+
+.footer-social-text {
+    width: auto;
+    color: rgba(255, 255, 255, .9);
+    font-size: 16px;
+    line-height: 1em;
+    display: inline-block;
+    position: relative;
+}
+
+.font-icon.brand.social {
+    width: 20px;
+    margin-right: 20px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.font-icon.brand {
+    line-height: 1em;
+}
+
+
