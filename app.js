@@ -41,3 +41,12 @@ function subscribeButton() {
     })
 }
 
+// for search icon
+function searchIcon() {
+    let search = document.querySelector('#search-icon');
+    if(search.style.display === 'block'){
+        search.style.display = 'none';
+    } else {
+        search.style.display = 'block';
+    }
+}
