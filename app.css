@@ -290,18 +290,20 @@ img {
 .search-icon {
     margin-left: 100%;
     cursor: pointer;
-    margin-top: -30px;
 }
+
 
 @media screen and (max-width: 991px) {
     .search-icon {
         display: block;
+        margin-top: -20px;
     }
 }
 
 /* hamburger menu */
 
 
+/*nav-dropdown media*/
 @media screen and (max-width: 767px){
      .nav-dropdown.church.w--open, .nav-dropdown.get-involved.w--open,
      .nav-dropdown-columns, .nav-dropdown-column {
@@ -600,6 +602,7 @@ img {
 
 .nav-link {
     color: #fff;
+    margin-top: -20px;
 }
 
 .nav-menu-item.give {
