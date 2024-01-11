@@ -290,7 +290,7 @@ img {
 .search-icon {
     margin-left: 100%;
     cursor: pointer;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 @media screen and (max-width: 991px) {
