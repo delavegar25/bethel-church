@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
 }
 
+/* root */
 
 :root {
     --victor: #363df7;
@@ -41,6 +42,8 @@ body {
     --knighton: #a37378;
 }
 
+/* urgent-update, text, a*/
+
 .urgent-update, .update-container {
     display: block;
 }
@@ -61,6 +64,8 @@ body {
 .urgent-update a{
    text-decoration: none;
 }
+
+/*navbar-container*/
 
 .navbar-container {
  z-index: auto;
@@ -84,19 +89,7 @@ body {
     } 
 }
 
-/* hamburger menu */
-
-.hamburger-menu {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.hamburger-menu a {
-    display: block;
-    color-scheme: #f2f2f2;
-    font-size: 17px;
-}
-
+/*brand section*/
 .brand.w--current {
     padding-right: 0;
 }
@@ -122,6 +115,8 @@ a {
     text-decoration: none;
 }
 
+/*nav-logo sction*/
+
 .nav-logo {
     max-height: 40px;
     letter-spacing: .4px;
@@ -129,6 +124,8 @@ a {
     margin-right: 20px;
     font-weight: 400;
 }
+
+/*img inherit*/
 
 img {
     max-width: 100%;
@@ -141,6 +138,8 @@ img {
         display: none;
     }
 }
+
+/*nav-menu & nav-menu-item*/
 
 @media screen and (max-width: 479px){
    .nav-menu {
@@ -180,6 +179,8 @@ img {
    margin-right: auto;
 }
 
+
+/* nav-dropdown toggle-about*/
 
 .dropdown-toggle.about {
     display: none;
@@ -391,9 +392,14 @@ img {
     } 
 }
 
+/* nav-dropdown-arrow*/
+
 .nav-dropdown-arrow {
     margin-left: 10px;
 }
+
+/* media query for .subscribe-form, dropdown-toggle, church, 
+blue-line, arrow*/
 
 @media screen and (max-width: 767px){
     .subscribe-form, .dropdown-toggle{
@@ -443,6 +449,7 @@ img {
 }
 
 
+/*nav-menu-label*/
 
 @media screen and (max-width: 767px) {
     .nav-menu-label {
@@ -486,6 +493,8 @@ img {
     flex: 1;
     position: relative;
 }
+
+/*media query */
 
 @media screen and (max-width: 991px) {
     .nav-dropdown.get-involved, .nav-dropdown.events, 
@@ -535,6 +544,7 @@ img {
 
 .nav-menu-item.give {
     height: 68px;
+    top: 7px;
     margin-right: 20px;
     font-size: 16px;
 }
