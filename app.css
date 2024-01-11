@@ -296,7 +296,7 @@ img {
 @media screen and (max-width: 991px) {
     .search-icon {
         display: block;
-        margin-top: -20px;
+        margin-top: -25px;
     }
 }
 
