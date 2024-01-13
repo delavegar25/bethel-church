@@ -1048,6 +1048,10 @@ h2{
     letter-spacing: 1px;
 }
 
+.event-heading {
+    color: var(--black);
+}
+
 @media screen and (max-width: 767px) {
     .heading-3 {
         font-size: 30px;
