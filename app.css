@@ -1167,10 +1167,15 @@ html.w-mod-touch * {
     }
 }
 
+.flex-grid-item {
+    padding: 2px;
+}
+
 .heading-4.ivypresto-ministries {
     font-weight: 300;
     text-transform: uppercase;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 60px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1182,6 +1187,7 @@ html.w-mod-touch * {
 .heading-jumbo {
     font-family: cursive;
     font-size: 32px;
+    padding: 20px;
 }
 
 @media screen and (max-width: 767px) {
