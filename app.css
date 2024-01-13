@@ -119,7 +119,7 @@ body {
 
 @media screen and (max-width: 991px) {
     .hero-buttons {
-        padding: 12px;
+        margin-top: 20px;
     }
 }
 
