@@ -1159,15 +1159,11 @@ html.w-mod-touch * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media screen and (max-width: 991px) {
-    .heading-jumbo{
-        padding: 30px;
-    }
-}
+
 
 .heading-jumbo {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
 }
 
 @media screen and (max-width: 767px) {
