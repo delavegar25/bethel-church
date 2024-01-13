@@ -961,7 +961,7 @@ h4 {
     }
 }
 
-/* betherl section .container _1360px */
+/* bethel section .container _1360px */
 
 @media screen and (max-width: 767px) {
     h2{
@@ -1078,12 +1078,7 @@ p {
     color: var(--white);
 }
 
-@media screen and (max-width: 767px) {
-    .section {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-}
+/*container _1360px bg-ministries*/
 
 .container._1360px.bg-ministries {
     background-image: url(https://assets-global.website-files.com/613a860b6005a3bcb87aca81/625508e9a08d1129aa5b6f38_bethel-ministries.jpg);
@@ -1092,6 +1087,50 @@ p {
     background-size: contain;
 }
 
+@media screen and (max-width: 479px) {
+    .container._1360px{
+        align-items: flex-start;
+    }
+}
+
+.container._1360px{
+    width: 90%;
+    height: auto;
+    max-width: 1360px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        overflow: auto;
+    }
+}
+
+@media screen and (991px) {
+    .heading-4.ivypresto-ministries{
+        margin-bottom: 15em;
+    }
+}
+
+.heading-4.ivypresto-ministries {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 991px) {
+    .heading-1.jumbo-2{
+        padding: 30px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
 
 
 .heading-4.ivypresto.caps._300{
