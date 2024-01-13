@@ -977,6 +977,7 @@ h4 {
     }
 }
 
+
 h2{
     display: block;
     margin-block-start: 0.83em;
@@ -1063,6 +1064,21 @@ h2{
     text-transform: none;
 }
 
+/*heading 1*/
+
+.heading-1 {
+    color: #000;
+    font-size: 54px;
+    font-size: 700;
+}
+
+/*l3*/
+.l3 {
+    color: #000;
+    font-size: 400;
+    font-size: 19px;    
+}
+
 .ivypresto {
     font-family: ivypresto-display, sans-serif;
 }
@@ -1144,12 +1160,13 @@ html.w-mod-touch * {
 }
 
 @media screen and (max-width: 991px) {
-    .heading-1.jumbo-2{
+    .heading-jumbo{
         padding: 30px;
     }
 }
 
-.heading-1.jumbo-2 {
+.heading-jumbo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
 }
 
@@ -1304,7 +1321,7 @@ h6 {
 
 .date-begin {
     width: auto;
-    color: var(--court);
+    color: var(--black);
     display: inline-block;
     position: relative;
 }
@@ -1358,7 +1375,7 @@ h5 {
 
 .date-end {
     width: auto;
-    color: var(--court);
+    color: var(--black);
     display: inline-block;
 }
 
