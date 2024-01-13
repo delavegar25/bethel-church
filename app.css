@@ -118,7 +118,9 @@ body {
 }
 
 @media screen and (max-width: 991px) {
-    
+    .hero-buttons {
+        padding: 12px;
+    }
 }
 
 /* make all anchor tag text decoration = none */
