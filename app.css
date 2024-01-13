@@ -1188,8 +1188,8 @@ html.w-mod-touch * {
 }
 
 @media screen and (max-width: 991px) {
-    .btn-ministry {
-        padding: 30px;
+    .connect-ministry {
+        padding: 20px;
     }
 }
 
