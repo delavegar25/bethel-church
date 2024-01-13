@@ -1184,6 +1184,7 @@ html.w-mod-touch * {
     }
 }
 
+
 .heading-jumbo {
     font-family: cursive;
     font-size: 32px;
@@ -1422,6 +1423,22 @@ h5 {
     }
 }
 
+/*heading 12 for schools */
+.heading-12{
+    color: var(--white);
+    font-size: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading-13{
+    color: var(--white);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section.background-black.schools{
+    padding: 60px;
+}
 
 
 .heading-1.ivypresto._100.centered-header.l4 {
