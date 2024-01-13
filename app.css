@@ -299,6 +299,19 @@ img {
     .search-icon {
         display: block;
         margin-top: -25px;
+        margin-left: 19.4em;
+    }
+}
+
+/* navbar-container and update */
+
+@media screen and (max-width: 991px){
+    .navbar-container {
+        height: 70px;
+    }
+
+    .urgent-update {
+        height: 40px;
     }
 }
 
@@ -562,6 +575,12 @@ blue-line, arrow*/
         display: block;
     }
 }
+/* text fonts for media query*/
+@media screen and (max-width: 991px) {
+    .bethel-vision-title {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
 
 /* media query for menu-button*/
 
@@ -639,6 +658,7 @@ blue-line, arrow*/
     .section.home-hero {
        margin-top: 0;
        margin-bottom: 0;
+       height: 100%;
     }
 }
 
@@ -680,6 +700,14 @@ blue-line, arrow*/
         display: block;
     }
 }
+
+/*ivypresto_300*/
+@media screen and (max-width: 991px) {
+    .heading-3.ivypresto._300{
+        font-family:'Times New Roman', Times, serif;
+    } 
+}
+
 
 .hero-background-video {
     z-index: 0;
