@@ -1187,6 +1187,12 @@ html.w-mod-touch * {
     cursor: pointer;
 }
 
+@media screen and (max-width: 991px) {
+    .btn-ministry {
+        padding: 10px;
+    }
+}
+
 .heading-4.ivypresto.caps._300{
     font-weight: 300;
 }
