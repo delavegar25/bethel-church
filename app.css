@@ -1220,6 +1220,12 @@ h3{
 }
 
 @media screen and (max-width: 991px) {
+    .btn-ministry {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 991px) {
     .image {
         margin-left: auto;
         margin-right: auto;
