@@ -108,10 +108,18 @@ body {
     position: relative;
 }
 
-.button-arrow-text._18 {
+
+.button-arrow.mr3{
     padding: 20px;
 }
 
+.button-arrow.mr1{
+    padding: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    
+}
 
 /* make all anchor tag text decoration = none */
 
