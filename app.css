@@ -6,6 +6,7 @@ body {
    background-color: #fff;
    margin: 0;
    font-weight: 400;
+   position: relative;
 }
 
 * {
@@ -1443,6 +1444,7 @@ h5 {
 .section.background-off-black {
     margin: 5px;
 }
+
 
 .heading-1.ivypresto._100.centered-header.l4 {
     letter-spacing: 2px;
