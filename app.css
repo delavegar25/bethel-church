@@ -6,7 +6,7 @@ body {
    background-color: #fff;
    margin: 0;
    font-weight: 400;
-   position: relative;
+   position: absolute;
 }
 
 * {
