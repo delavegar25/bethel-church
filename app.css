@@ -1789,7 +1789,7 @@ script {
     color: var(--white);
 }
 
-@media screen and (max-width: 767pz) {
+@media screen and (max-width: 767px) {
     .footer-section {
         padding-top: 60px;
         padding-bottom: 60px;
