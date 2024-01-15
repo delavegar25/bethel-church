@@ -1807,6 +1807,8 @@ script {
     overflow: auto;
 }
 
+
+
 .subscribe-form {
     grid-column-gap: 24px;
     grid-row-gap: 0px;
@@ -1820,26 +1822,7 @@ script {
     flex-direction: column;
 }
 
-.footer-section.background-black {
-    z-index: 3000;
-    background-color: #000;
-    color: var(--white);
-}
 
-
-@media screen and (max-width: 767px){
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.footer-section {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    display: block;
-    position: relative;
-    overflow: auto;
-}
 
 @media screen and (max-width: 991px){
     .footer-grid-container {
