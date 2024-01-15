@@ -1475,6 +1475,17 @@ h5 {
     position: relative;
 }
 
+
+.stuck-to-bottom {
+  display: flex;
+  align-items: center;
+  justify-self: stretch;
+}
+
+.button-arrow-listen {
+  margin-top: 300px;
+}
+
 .link-grid {
     width: 100%;
     grid-column-gap: 0px;
@@ -1782,11 +1793,23 @@ script {
 }
 
 
+
+
 /*footer*/
 .footer-section.background-black {
     z-index: 3000;
     background-color: var(--black);
     color: var(--white);
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-section.background-black {
+        z-index: 3000;
+        background-color: var(--black);
+        color: var(--white);
+        position: relative;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -1799,6 +1822,8 @@ script {
 .footer-section {
     width: 100%;
     height: auto;
+    display: flex;
+    flex: 1;
     border-radius: 0;
     flex-flow: row;
     align-items: center;
@@ -1806,7 +1831,6 @@ script {
     position: relative;
     overflow: auto;
 }
-
 
 
 .subscribe-form {
