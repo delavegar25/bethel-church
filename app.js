@@ -50,3 +50,25 @@ function searchIcon() {
         search.style.display = 'block';
     }
 }
+
+// asynchronous programming for all the buttons
+function joinButtons() {
+    const btn1 = document.querySelector('#join-person');
+    const btn2 = document.querySelector('#join-online');
+    console.log(btn1, btn2);
+
+    // added the eventhandler to handle the click event
+    // made sure when client clicks it executes in 1sec.
+    btn1.addEventListener('click', () => {
+        setTimeout(() => {
+           console.log('execute btn1 in 1sec');
+        }, 1000);
+    })
+
+    btn2.addEventListener('click', () => {
+        setTimeout(() => {
+            console.log('execute btn2 in 1sec.')
+        }, 1000);
+    })
+
+}
