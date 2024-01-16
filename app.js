@@ -55,7 +55,8 @@ function searchIcon() {
 function joinButtons() {
     const btn1 = document.querySelector('#join-person');
     const btn2 = document.querySelector('#join-online');
-    console.log(btn1, btn2);
+    const btn3 = document.querySelector('#listen-now');
+    console.log(btn1, btn2, btn3);
 
     // added the eventhandler to handle the click event
     // made sure when client clicks it executes in 1sec.
@@ -71,4 +72,9 @@ function joinButtons() {
         }, 1000);
     })
 
+    btn3.addEventListener('click', () => {
+        setTimeout(() => {
+            console.log('listen now!');
+        }, 1000);
+    })
 }
