@@ -591,7 +591,7 @@ blue-line, arrow*/
     height: 15px;
     position: relative;
     cursor: pointer;
-    top: -15px;
+    top: -25px;
 }
 
 .line{
