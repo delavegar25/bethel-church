@@ -597,10 +597,10 @@ blue-line, arrow*/
 .line{
     width: 100%;
     height: 3px;
-    background-color: #333;
+    background-color: #b5b5b5;
     position: absolute;
     transition: transform 0.3s ease-in-out;
-    left: 350px;
+    left: 400px;
 }
 
 .line:nth-child(2) {
