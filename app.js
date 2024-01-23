@@ -78,3 +78,10 @@ function joinButtons() {
         }, 1000);
     })
 }
+
+// toggle the hamburger-menu
+
+function toggleMenu(){
+    const menuIcon = document.querySelector('.menu-icon');
+    menuIcon.classList.toggle('open');
+}
