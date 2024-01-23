@@ -584,7 +584,8 @@ blue-line, arrow*/
 }
 
 /* hamburger menu */
-
+@media screen and (max-width: 991px) {
+    
 .menu-icon {
     width: 15px;
     height: 15px;
@@ -623,7 +624,7 @@ blue-line, arrow*/
 }
 
 
-
+}
 
 
 @media screen and (max-width: 991px) {
