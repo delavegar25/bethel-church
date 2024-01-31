@@ -85,3 +85,22 @@ function toggleMenu(){
     const menuIcon = document.querySelector('.menu-icon');
     menuIcon.classList.toggle('open');
 }
+
+// menu-icon to dropdown the menu.
+document.getElementById('menuIcon').addEventListener('click', ()=> {
+    let dropdown = document.getElementById('w-dropdown-toggle-0');
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block"; 
+});
+
+// close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+    if(!event.target.matches('#menuIcon')) {
+        let dropdowns = document.getElementsByClassName("dropdown-toggle");
+        for (let i = 0; i < dropdowns.length; i++){
+            let openDropdown = dropdowns[i];
+            if(openDropdown.style.display === "block") {
+                openDropdown.style.display = "none";
+            }
+        }
+    }
+}
