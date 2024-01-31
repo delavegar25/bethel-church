@@ -79,3 +79,12 @@ function joinButtons() {
     })
 }
 
+// for the search icon
+document.getElementById('search-icon').addEventListener('click', () => {
+    const query = document.getElementById('search-icon').value;
+    performSearch(query);
+});
+
+function performSearch(query){
+    alert(`performng search for: $(query`)
+}
