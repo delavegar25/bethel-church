@@ -583,15 +583,7 @@ blue-line, arrow*/
  top: 26px;
 }
 /*search-pattern*/
-.search-container {
-   display: none;
-}
 
-@media screen and (max-width: 991px) {
-    .search-container {
-        display: none;
-    }
-}
 
 .hidden {
     display: none;
