@@ -98,8 +98,8 @@ window.onclick = function(event) {
         let dropdowns = document.getElementsByClassName("dropdown-toggle w-dropdown-toggle");
         for (let i = 0; i < dropdowns.length; i++){
             let openDropdown = dropdowns[i];
-            if(openDropdown.style.display === "block") {
-                openDropdown.style.display = "none";
+            if(openDropdown.style.display === "none") {
+                openDropdown.style.display = "block";
             }
         }
     }

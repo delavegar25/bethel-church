@@ -612,7 +612,17 @@ blue-line, arrow*/
     bottom: 0;
 }
 
+.menu-icon.open .line:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
 
+.menu-icon.open .line:nth-child(2){
+    transform: scaleX(0);
+}
+
+.menu-icon.open .line:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
 
 }
 
