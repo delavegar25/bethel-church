@@ -582,6 +582,21 @@ blue-line, arrow*/
  position: relative;
  top: 26px;
 }
+/*search-pattern*/
+.search-container {
+   display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .search-container {
+        display: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
 
 /* hamburger menu */
 @media screen and (max-width: 991px) {

@@ -80,11 +80,17 @@ function joinButtons() {
 }
 
 // for the search icon
-document.getElementById('search-icon').addEventListener('click', () => {
-    const query = document.getElementById('search-icon').value;
-    performSearch(query);
+const searchIcon = document.getElementById('search-icon');
+const searchInput = document.getElementById('searchInput');
+
+// coding
+searchIcon.addEventListener('click', () => {
+    searchInput.classList.toggle('hidden');
+    if(!searchInput.classList.contains('hidden')){
+        searchInput.focus(); // focus on the input when it is displayed.
+    }
 });
 
-function performSearch(query){
-    alert(`performng search for: $(query`)
-}
+searchInput.addEventListener('blur', () => {
+    searchInput.classList.add('hidden');
+})
